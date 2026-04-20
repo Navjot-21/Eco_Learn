@@ -15,9 +15,9 @@ import java.sql.SQLException;
 public class DBConnection {
 
     // ── Configuration ────────────────────────────────────────────────
-    private static final String DB_URL = "jdbc:mysql://localhost:3306/ecolearn_db?useSSL=false&serverTimezone=UTC";
+    private static final String DB_URL = "mysql_url";
     private static final String DB_USER = "root";
-    private static final String DB_PASS = "navdata"; // ← change this if needed
+    private static final String DB_PASS = "pass"; // ← change this if needed
     // ─────────────────────────────────────────────────────────────────
 
     /** Private constructor prevents direct instantiation. */
